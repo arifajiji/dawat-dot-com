@@ -1,0 +1,571 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    background-color: gray;
+}
+
+
+.row{
+    width: 100%;
+    
+}
+
+.row::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+[class*="col-"] {
+
+    float: left;
+    padding: 10px;
+  }
+
+
+  [class*="col-"] {
+    width: 100%;
+  }  
+
+  /*header starts*/
+
+  .nevbar{
+      display: fixed;
+  }
+
+  header{
+      background-color: #24a19c;
+      text-align: center;
+      
+  }
+
+  .logo a{
+   
+  }
+
+
+.pic1{
+    height: 100px;
+    width: 100px;
+    border: 2px white solid;
+    border-radius: 50px;
+
+}
+
+.heading{
+    font-size: 1.5rem;
+    color: antiquewhite;
+    text-shadow: darkgray 2px 2px 2px;
+}
+
+.menubar ul li{
+    display: block;
+
+}
+
+.menubar ul li a{
+    display: block;
+    text-decoration: none;
+    color: darkturquoise;
+    line-height: 50px;
+    padding: 0 20px;
+    font-size: 1.1;
+    
+}
+
+.menubar ul li a:hover{
+    background-color: dimgray;
+    border-radius: 5px;
+}
+
+/*header ends*/
+
+/*main starts*/
+
+/*banner here starts*/
+.ban{
+    background-image: url("images/download.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ban-contents{
+    padding: 120px 15px;
+    text-align: center;
+
+}
+
+.ban-contents h1{
+    width: 100%;
+    margin: 15px auto;
+    font-size: 1.5rem;
+    background: rgba(128, 255, 0, 0.466);
+    border-radius: 5px;
+    padding: 10px;
+}
+/*banner here ends*/
+
+/*about starts */
+#about-us::after{
+    clear: both;
+    display: block;
+    content: '';
+}.menubar-1{
+    height: 250px;
+}
+
+.mahmud{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+}
+
+.card{
+    height: 337px;
+    text-align: center;
+    background-color:azure;
+    box-shadow: burlywood 1px 1px 1px 1px;
+}
+
+.card h1{
+    color: green;
+    margin: 10px;
+    font-size: 1.1rem;
+}
+
+.card p{
+    margin: 3px;
+    color: darkolivegreen;
+}
+
+.arif{
+    height: 200px;
+    width: 200px;
+}
+
+.arif-1{
+    text-align: center;
+}
+
+.about-us-contents{
+    border: dimgray 5px;
+    padding: 15px;
+    background-color: antiquewhite;
+    box-shadow: burlywood 1px 1px 1px 1px;
+    
+}
+
+.about-us-contents h3{
+    font-size: 1.5rem;
+    padding: 10px;
+    color: chocolate;
+    text-align: center;
+    box-shadow: burlywood 1px 1px 1px 1px;
+}
+
+.about-us-contents ul li{
+    padding: 5px 0px;
+    color: black;
+    list-style-type: square;
+    list-style-position:inside ;
+    font-size: 0.9rem;
+    text-align: justify;
+    letter-spacing: 0.1px;
+
+}
+
+.about-us-contents h2{
+    margin-top: 4px;
+    color: brown;
+    text-shadow: chocolate 2px 2px 2px;
+}
+
+.list ul li{
+    color: red;
+}
+
+.list ul li i{
+    color: navy;
+}
+
+/*about ends*/
+
+/*food menu starts here*/
+
+#food-menu-section{
+    box-sizing: border-box;
+
+}
+
+.food-card{
+    transition: 2s;
+    
+}
+
+.food-card:hover{
+    transform: scale(1.1);
+
+}
+
+h3{
+    text-align: center;
+    color: darkturquoise;
+    text-shadow: aliceblue 2px 2px 1px;
+    padding: 10px;
+    font-size: 1.9rem;
+}
+
+.food-card-body{
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+.food-card-body img{
+    max-width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.opt{
+    width: 90px;
+    height: 25px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: 2px;
+    color: darkblue;
+}
+
+
+.food-pic{
+    width: 100%;
+    height: 100%;
+}
+
+.food-desc{
+    background: darkcyan;
+    
+}
+
+.item-name{
+    background-color: skyblue;
+    color: slategrey;
+    padding: 8px;
+}
+
+.food-desc > p {
+font-size: 0.9rem;
+padding: 5px;
+font-weight: bold;
+color: floralwhite;
+}
+
+
+
+.btn{
+ border: none;
+      
+}
+
+.btn a{
+font-size: 0.9rem;
+padding: 1px;
+font-weight: bold;
+text-decoration: none;
+background-color: darkslategrey;
+color: green;
+border: none;
+border-radius: 5px;
+    }
+
+
+
+/*food menu ends here*/
+
+/*contact starts*/
+
+#contact{
+    padding: 1%;
+    background-color: #595b83;
+}
+
+
+.map{
+    width: 100%;
+    height: 250px;
+    border: none;
+    text-align:  0 auto;
+}
+
+.contact-details{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-details h5{
+    font-size: 1.1rem;
+}
+
+.contact-details h3{
+    font-size: 1.4rem;
+}
+
+.contact-details p a{
+    text-decoration: none;
+    color: wheat;
+}
+/*contact ends*/
+
+/*contact ends*/
+/*email starts*/
+
+#comment-section{
+
+}
+
+.email h2{
+    color: wheat;
+    text-shadow: thistle 2px 2px 2px ;
+    margin: 5px;
+    font-size: 1.5rem;
+}
+
+.hori{
+    border: dotted 6px wheat;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 100px;
+}
+
+.email{
+    padding: 1% 7%;
+    text-align: center;
+}
+
+.email input, textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.email button{
+    border: none;
+    border-radius: 12px;
+    background-color: #052d2f;
+    color: lavender;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+
+}
+
+.footer{
+    text-align: center;
+    color: gainsboro;
+    background-color: indigo;
+    padding: 10px;
+}
+
+
+/*email end*/
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .col-sm-1 {width: 8.33%;}
+    .col-sm-2 {width: 16.66%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-4 {width: 33.33%;}
+    .col-sm-5 {width: 41.66%;}
+    .col-sm-6 {width: 50%;}
+    .col-sm-7 {width: 58.33%;}
+    .col-sm-8 {width: 66.66%;}
+    .col-sm-9 {width: 75%;}
+    .col-sm-10 {width: 83.33%;}
+    .col-sm-11 {width: 91.66%;}
+    .col-sm-12 {width: 100%;}
+       
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+.col-md-1 {width: 8.33%;}
+.col-md-2 {width: 16.66%;}
+.col-md-3 {width: 25%;}
+.col-md-4 {width: 33.33%;}
+.col-md-5 {width: 41.66%;}
+.col-md-6 {width: 50%;}
+.col-md-7 {width: 58.33%;}
+.col-md-8 {width: 66.66%;}
+.col-md-9 {width: 75%;}
+.col-md-10 {width: 83.33%;}
+.col-md-11 {width: 91.66%;}
+.col-md12 {width: 100%;}
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+.col-lg-1 {width: 8.33%;}
+.col-lg-2 {width: 16.66%;}
+.col-lg-3 {width: 25%;}
+.col-lg-4 {width: 33.33%;}
+.col-lg-5 {width: 41.66%;}
+.col-lg-6 {width: 50%;}
+.col-lg-7 {width: 58.33%;}
+.col-lg-8 {width: 66.66%;}
+.col-lg-9 {width: 75%;}
+.col-lg-10 {width: 83.33%;}
+.col-lg-11 {width: 91.66%;}
+.col-lg-12 {width: 100%;}
+
+/*banner starts*/
+
+.ban-contents h1{
+    width: 50%;
+    margin: 15px auto;
+    font-size: 1.5rem;
+    background: rgba(128, 255, 0, 0.466);
+    border-radius: 5px;
+    padding: 10px;
+    color: rgba(25, 25, 112, 0.952);
+}
+
+
+/*banner end*/
+
+/*about-us-contents*/
+
+.about-us-contents ul li{
+color: indigo;
+}
+
+.list ul li{
+    color: deeppink;
+}
+
+
+
+/*about-us-contents*/
+
+/*header here*/
+
+.menubar{
+    text-align: right;
+
+}
+
+.menubar ul li{
+display: inline-block;
+}
+
+.menubar ul li{
+    display: inline-block;
+    font-size: 0.8rem;
+    padding: 1px;
+    margin-top: 20px;
+    transition: 1s;
+}
+
+.menubar ul li:hover{
+    transform: scale(1.1);
+}
+
+.menubar ul li a{
+    color: white;
+   
+}
+
+
+
+.heading{
+    margin-top: 25px;
+    font-size: 2.5rem;
+}
+/*header here*/
+
+
+
+/*about-us-contents starts*/
+
+.about-us-contents{
+height: 336px;
+width: 100%;
+overflow: auto;
+box-shadow: none;
+border: dimgray 2px;
+}
+
+.about-us-contents ul li{
+    font-size: 1.1rem;
+}
+/*about-us-contents starts*/
+
+
+.food-pic{
+    max-width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.food-card-body img{
+    max-width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.food-card{
+  box-sizing: border-box;
+}
+
+/*contact-details*/
+
+
+.contact-details{
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+.contact-details h3{
+    font-size: 1.4rem;
+    
+    margin-top: 2px;
+}
+
+.hori{
+    margin: 10px auto;
+}
+
+/*contact-details*/
+
+
+}
+
+
+
